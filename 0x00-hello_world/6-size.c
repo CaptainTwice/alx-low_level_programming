@@ -20,4 +20,3 @@ int main(void)
 	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
-
