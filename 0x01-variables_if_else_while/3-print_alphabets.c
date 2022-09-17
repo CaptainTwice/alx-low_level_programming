@@ -14,7 +14,7 @@ int main(void)
 		a++;
 	}
 
-	a = 'Z';
+	a = 'A';
 
 	while (a <= 'Z')
 	{
