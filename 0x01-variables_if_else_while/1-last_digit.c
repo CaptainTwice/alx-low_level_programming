@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - prints the last digit of n and prints out whether it is
@@ -12,8 +12,9 @@ int main(void)
 	int n;
 	int lastDigit;
 
-	srand(time(0))
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	lastDigit = n % 10;
 	printf("Last digit of %i is %i ", n, lastDigit);
 	if (lastDigit > 5)
